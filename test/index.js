@@ -1,15 +1,21 @@
-import intl from 'react-intl-universal';
 const cardNum = 123;
-const ss = [{
-  title: intl.get('test_i18n_k4ff')
-}, {
-  age: intl.get('test_i18n_rXqn')
-}, {
-  id: intl.get('test_i18n_LINE')
-}, {
-  job: intl.get('test_i18n_ypGq')
-}, {
-  card: `${intl.get('test_i18n_XiiD')}${cardNum}${intl.get('test_i18n_X5BP')}20${intl.get('test_i18n_soPx')}`
-},{
-  more:`${intl.get('test_i18n_8zH3')}${cardNum}${intl.get('test_i18n_X5BP')}20${intl.get('test_i18n_soPx')}`
-}]
+const ss = [
+  {
+    title: '姓名？',
+  },
+  {
+    age: '年，龄。',
+  },
+  {
+    id: '编（号）',
+  },
+  {
+    job: '哈哈哈！',
+  },
+  {
+    card: `银行卡号是${cardNum}，余额20万`,
+  },
+  {
+    more: `更多信息是${cardNum}，余额20万`,
+  },
+];
