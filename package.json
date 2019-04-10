@@ -1,0 +1,33 @@
+{
+  "name": "autointl",
+  "version": "0.0.1",
+  "description": "auto intl",
+  "main": "./lib/index.js",
+  "bin": {
+    "autoIntl": "./lib/index.js"
+  },
+  "scripts": {
+    "test": "node ./lib/index.js test"
+  },
+  "keywords": [
+    "i18n",
+    "intl"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "randomstring": "^1.1.5"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alitajs/autoIntl.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/alitajs/autoIntl/issues"
+  },
+  "homepage": "https://github.com/alitajs/autoIntl#readme"
+}
