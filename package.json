@@ -1,6 +1,6 @@
 {
   "name": "autointl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "auto intl",
   "main": "./lib/index.js",
   "bin": {
