@@ -1,5 +1,5 @@
 {
-  "name": "autointl",
+  "name": "@alitajs/autointl",
   "version": "0.0.2",
   "description": "auto intl",
   "main": "./lib/index.js",
